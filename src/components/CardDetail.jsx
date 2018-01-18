@@ -9,7 +9,6 @@ import { useDispatch, useSelector } from 'react-redux'
 import { selectedProduct, removeSelectedProduct } from '../redux/actions/selectedProductActions'
 
 function CardDetail() {
-
     const selected = useSelector((state) => state.selected)
     const { image, category, title, price, description } = selected;
     const dispatch = useDispatch()
@@ -21,7 +20,7 @@ function CardDetail() {
         return () => {
             dispatch(removeSelectedProduct())
         }
-    }, [dispatch,id])
+    }, [dispatch, id])
 
     return (
         <div className='container'>
