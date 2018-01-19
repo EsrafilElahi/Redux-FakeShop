@@ -5,9 +5,7 @@ import { DownOutlined } from '@ant-design/icons'
 
 const { SubMenu } = Menu;
 
-
 function Navbar() {
-
     return (
         <div>
 
@@ -16,7 +14,7 @@ function Navbar() {
                     <Menu.Item key='basket'>
                         <NavLink to='/basket'>BASKET</NavLink>
                     </Menu.Item>
-                    <SubMenu key='submenu' title='CATEGORY' icon={<DownOutlined style={{ marginRight: '-10px', fontSize:"10px" }} />}>
+                    <SubMenu key='submenu' title='CATEGORY' icon={<DownOutlined style={{ marginRight: '-10px', fontSize: "10px" }} />}>
                         <Menu.Item key='jewelery'>
                             <NavLink to='/jewelery'>JEWELERY</NavLink>
                         </Menu.Item>
