@@ -21,7 +21,7 @@ function Home() {
             dispatch(removeProductsList())
         }
 
-    }, [])
+    }, [dispatch])
 
     return (
         <div>

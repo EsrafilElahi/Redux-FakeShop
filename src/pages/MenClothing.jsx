@@ -21,7 +21,7 @@ function MenClothing() {
             dispatch(removeProductsList())
         }
 
-    }, [])
+    }, [dispatch])
 
     return (
         <div>

@@ -21,7 +21,7 @@ function Jewelery() {
             dispatch(removeProductsList())
         }
 
-    }, [])
+    }, [dispatch])
 
     return (
         <div>

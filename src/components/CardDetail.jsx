@@ -21,7 +21,7 @@ function CardDetail() {
         return () => {
             dispatch(removeSelectedProduct())
         }
-    }, [id])
+    }, [dispatch,id])
 
     return (
         <div className='container'>
