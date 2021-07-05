@@ -7,7 +7,6 @@ import { CaretRightOutlined } from '@ant-design/icons';
 
 import { useDispatch, useSelector } from 'react-redux'
 import { selectedProduct, removeSelectedProduct } from '../redux/actions/selectedProductActions'
-// import { addProductBasket } from '../redux/actions/basketActions'
 
 function CardDetail() {
 
